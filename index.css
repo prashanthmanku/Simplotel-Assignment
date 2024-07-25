@@ -1,0 +1,172 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-gradient-card {
+    background: linear-gradient(to left, #ffe148, #ed59e1);
+    height: 100vh;
+
+}
+
+.home-bg-card {}
+
+.Home-card {
+    background-image: url('https://res.cloudinary.com/dcbdcornz/image/upload/v1721900923/img1_jkkrde.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+
+
+}
+
+.nav-card {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.menu-icon {
+    font-size: 25px;
+
+}
+
+.menu-icon1 {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.menu-icon2 {
+    font-size: 25px;
+
+}
+
+.nav-items {
+    display: none;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Serif;
+    color: black;
+    font-size: 17px;
+}
+
+@media (min-width:768px) {
+    .nav-items {
+        display: flex;
+        margin: auto;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+.nav-logos {}
+
+.home-content-card {
+    background-color: #f4627a99;
+    /* width:40%; */
+    padding: 20px;
+
+}
+
+.bottom-bg-card {
+    font-family: sans-serif;
+    margin-top: 10px;
+    background: linear-gradient(to left, #ffe148, #ed59e1);
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.bottom-section-heading {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+
+
+
+
+}
+
+.bottom-card {
+    background-color: white;
+    padding: 20px;
+    font-family: sans-serif;
+    color: black;
+    width: 200px;
+    margin: 0px 20px 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+
+}
+
+.card-img {
+    width: 80%;
+    border-top-right-radius: 50px;
+
+}
+
+.b-card-heading {
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.b-card-text {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+
+
+}
+
+.order-button {
+    background-color: #ffffff66;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+
+
+
+
+}
